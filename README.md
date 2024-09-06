@@ -2,6 +2,7 @@ Here we model a city map containing cell towers using Point Quadtrees. Each cell
 Quadtree data structure used to represent points in a 2D space by recursively dividing the plane into quadrants. Each node stores a point and has four children, representing NE, NW, SE, and SW quadrants.
 
 Main Features are as follows:-
+
 Insertion: Efficiently inserts a CellTower into the quadtree based on its coordinates.
 Cheapest Tower Search: Given a query point and radius, finds the cell tower with the lowest cost within that distance.
 Existence Check: Checks if a cell tower exists at a specific coordinate.
